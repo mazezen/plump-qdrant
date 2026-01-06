@@ -1,0 +1,20 @@
+{
+    "name": "mazezen/php-qdrant",
+    "description": "php operation qdrant example",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mazezen\\PhpQdrant\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mazezen",
+            "email": "mazezen24@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    }
+}
